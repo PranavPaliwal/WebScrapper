@@ -5,5 +5,5 @@ def fetchData(url, path):
     with open(path, "w", encoding="utf-8") as f:
         f.write(r.text)
 
-url = "https://www.timesnownews.com/"
+url = "ENTER URL HERE"
 fetchData(url, r"c:\Users\Pranav\Desktop\Python\data.html")
